@@ -1,0 +1,148 @@
+{
+  "title": "Gestione corsi di formazione",
+  "description": "Catalogo interno per consultare i corsi, verificare date e posti disponibili e registrare nuove sessioni formative.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "catalogo-corsi",
+      "title": "Catalogo corsi",
+      "description": "Panoramica delle sessioni formative disponibili e dei posti residui.",
+      "metrics": [
+        {
+          "label": "Corsi attivi",
+          "value": "12"
+        },
+        {
+          "label": "Prossime sessioni",
+          "value": "5"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "38"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Scrittura chiara",
+          "Lumo Valli",
+          "Officina Nubi",
+          "12/05/2026",
+          "12/05/2026",
+          "8",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Introduzione ai dati",
+          "Vela Neri",
+          "Atelier Lume",
+          "18/05/2026",
+          "19/05/2026",
+          "4",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Collaborazione efficace",
+          "Nubi Riva",
+          "Studio Vettore",
+          "21/05/2026",
+          "21/05/2026",
+          "0",
+          "Completo"
+        ],
+        [
+          "Gestione dei progetti",
+          "Mira Selva",
+          "Officina Nubi",
+          "27/05/2026",
+          "28/05/2026",
+          "7",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Presentazioni essenziali",
+          "Timo Ardesia",
+          "Atelier Lume",
+          "03/06/2026",
+          "03/06/2026",
+          "6",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Leda Quarzo",
+          "Studio Vettore",
+          "09/06/2026",
+          "09/06/2026",
+          "3",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Analisi dei processi",
+          "Reno Corallo",
+          "Officina Nubi",
+          "15/06/2026",
+          "16/06/2026",
+          "0",
+          "Completo"
+        ],
+        [
+          "Comunicazione visiva",
+          "Sira Cedro",
+          "Atelier Lume",
+          "22/06/2026",
+          "22/06/2026",
+          "10",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili",
+        "Stato"
+      ]
+    },
+    {
+      "id": "nuova-sessione",
+      "title": "Aggiungi sessione",
+      "description": "Registra una sessione formativa nel catalogo con docente, date e capienza.",
+      "metrics": [
+        {
+          "label": "Campi richiesti",
+          "value": "7"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Corso",
+        "Docente",
+        "Organizzazione",
+        "Data inizio",
+        "Data fine",
+        "Posti disponibili",
+        "Stato"
+      ]
+    }
+  ]
+}
